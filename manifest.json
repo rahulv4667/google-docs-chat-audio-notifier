@@ -1,0 +1,11 @@
+{
+    "manifest_version":2,
+    "name" : "Google Docs Chat Audio Notifier",
+    "version":"0.0.1",
+    "content_scripts":[
+        {
+            "matches" : ["*://docs.google.com/*"],
+            "js" : ["content.js"]
+        }
+    ]
+}
